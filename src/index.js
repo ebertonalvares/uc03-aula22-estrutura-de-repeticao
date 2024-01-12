@@ -37,11 +37,11 @@ const readline = require ('readline-sync');
  //}
 
 
- let nome1;
- let nome2;
- let nome3;
- let nome4;
- let nome5;
+ 
 
 
-for(nome1 )
+
+for(let i = 0; i <= 5; i++){
+    const nome = readline.question("Informe um nome: ");
+    console.log(nome);
+}
